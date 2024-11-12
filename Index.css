@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--color3);
 }
 
 body {
@@ -75,4 +76,17 @@ nav a:hover {
 
 nav a svg:hover {
     fill: var(--color4);
+}
+
+header div {
+    border: 1px solid var(--color3);
+    display: flex;
+    align-items: center;
+}
+
+header div:first-child ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
 }
