@@ -232,4 +232,17 @@ nav a:hover, nav a svg:hover {
     width: 250px;
 }
 
+.trending {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.trending img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+}
+
 
