@@ -144,9 +144,9 @@ nav a:hover, nav a svg:hover {
 }
 
 .main-container {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: 1px solid var(--color3);
 }
 
 .main-container h2 {
@@ -157,18 +157,22 @@ nav a:hover, nav a svg:hover {
 .main-container h3 {
     font-size: 12pt;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .main-container p {
     font-size: 10pt;
 }
 
+.main-container > div:first-child h2 {
+    margin-left: 20px;
+}
+
 .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 20px 20px;
-    border: 1px solid var(--color3);
+    padding: 10px 20px;
 }
 
 .project {
@@ -180,16 +184,41 @@ nav a:hover, nav a svg:hover {
 
 .additional-container {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
-    padding: 20px 20px;
-    border: 1px solid var(--color3);
+    
 }
 
-.additional-container > div > div {
+.additional-container > div h2 {
+    margin-bottom: 10px;
+}
+
+
+.additional-container > div:first-child > div {
+    background-color: var(--color1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    display: grid;
+}
+
+.announcement:not(:last-child) {
+    border-bottom: 1px  solid var(--color3);
+    padding-bottom: 15px;
+}
+
+.announcement:not(:first-child) {
+    padding-top: 15px;
+}
+
+.additional-container > div:nth-child(2) > div{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
     background-color: var(--color1);
     padding: 20px;
     border-radius: 10px;
     width: 250px;
 }
+
 
