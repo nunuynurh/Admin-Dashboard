@@ -146,14 +146,29 @@ nav a:hover, nav a svg:hover {
 .main-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    border: 1px solid var(--color3);
+}
+
+.main-container h2 {
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.main-container h3 {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.main-container p {
+    font-size: 10pt;
 }
 
 .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 20px 40px;
+    padding: 20px 20px;
+    border: 1px solid var(--color3);
 }
 
 .project {
@@ -167,15 +182,14 @@ nav a:hover, nav a svg:hover {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
-}
-.additional-container > div {
-    padding: 20px;
+    padding: 20px 20px;
+    border: 1px solid var(--color3);
 }
 
 .additional-container > div > div {
-    padding: 20px;
     background-color: var(--color1);
+    padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 250px;
 }
 
