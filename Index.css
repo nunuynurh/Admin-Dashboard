@@ -65,7 +65,7 @@ nav a {
 
 nav > div:first-child a{
     font-size: 1.5rem;
-    padding: 0;
+    padding: 0;;
 }
 
 nav a span {
@@ -141,4 +141,24 @@ nav a:hover, nav a svg:hover {
     background-color: var(--color4);
     color: var(--color1);
     cursor: pointer;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.project {
+    background-color: var(--color1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
 }
