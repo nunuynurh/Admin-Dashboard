@@ -41,6 +41,10 @@ svg {
     fill: var(--color3);
 }
 
+svg:hover {
+    fill: var(--color4);
+}
+
 nav {
     width: 250px;
     height: 100vh;
@@ -180,6 +184,13 @@ nav a:hover, nav a svg:hover {
     padding: 20px;
     border-radius: 10px;
     width: 300px;
+}
+
+.project-cta {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: right;
 }
 
 .additional-container {
