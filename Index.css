@@ -8,7 +8,7 @@
     --color1: #111827;
     --color2: #0284c7; 
     --color4: #e5e7eb;
-    --color5: #f9fafb;
+    --color5: #fff;
 }
 
 * {
@@ -42,7 +42,7 @@ svg {
 }
 
 svg:hover {
-    fill: var(--color2);
+    fill: var(--color5);
 }
 
 nav {
@@ -93,7 +93,7 @@ nav a:hover, nav a svg:hover {
 }
 
 .header-container {
-    background-color: #fff;
+    background-color: var(--color5);
     width: calc(100vw - 250px);
     display: flex;
     flex-wrap: wrap;
