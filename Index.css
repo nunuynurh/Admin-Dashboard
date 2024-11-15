@@ -179,8 +179,7 @@ nav a:hover, nav a svg:hover {
 
 .main-container {
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
 
 .main-container h2 {
