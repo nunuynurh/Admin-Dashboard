@@ -314,9 +314,17 @@ nav a:hover, nav a svg:hover {
     align-items: center;
 }
 
+.trending:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.trending:not(:first-child) {
+    padding-top: 5px;
+}
+
 .trending img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: block;
     border-radius: 50%;
 }
