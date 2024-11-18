@@ -59,7 +59,8 @@ nav a {
     padding: 10px 0px; 
     align-items: center;
     color: var(--color5);
-    font-weight: 600;    
+    font-weight: 600; 
+    font-size: 12pt;   
 }
 
 nav > div:first-child a{
